@@ -1,0 +1,7 @@
+library("irace")
+load("irace.Rdata")
+results<-iraceResults$experiments
+conf<-gl(ncol(results), nrow(results),labels=colnames(results))
+boxplot(iraceResults$experimentLog, ylab = "Solution cost", xlab = "Configuration ID")
+parameterFrequency( filename="freq.png",iraceResults$allConfigurations, iraceResults$parameters )
+parallelCoordinatesPlot(filename="par.png",iraceResults$allConfigurations, iraceResults$parameters, hierarchy = FALSE)

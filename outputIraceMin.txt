@@ -1,0 +1,350 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fatal error: cannot open file 'run.R': No such file or directory
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+# 2017-12-06 17:53:33 -02: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 3
+# nbParameters: 2
+# seed: 1731487948
+# confidence level: 0.95
+# budget: 10000
+# mu: 5
+# deterministic: FALSE
+
+# 2017-12-06 17:53:33 -02: Iteration 1 of 3
+# experimentsUsedSoFar: 0
+# remainingBudget: 10000
+# currentBudget: 3333
+# nbConfigurations: 555
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+# 2017-12-06 18:07:42 -02: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 3
+# nbParameters: 2
+# seed: 1454158931
+# confidence level: 0.95
+# budget: 10000
+# mu: 5
+# deterministic: FALSE
+
+# 2017-12-06 18:07:42 -02: Iteration 1 of 3
+# experimentsUsedSoFar: 0
+# remainingBudget: 10000
+# currentBudget: 3333
+# nbConfigurations: 555
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          1|        555|          1|   -7970.000000|        555|00:00:12|   NA|  NA|    NA|
+|x|          2|        555|          1|   -5034.000000|       1110|00:00:04|+0.04|0.52|0.9447|
+|x|          3|        555|          5|   -42200.66667|       1665|00:04:17|-0.01|0.33|1.0015|
+|x|          4|        555|          5|   -43045.25000|       2220|00:01:04|-0.02|0.23|1.0207|
+|-|          5|        520|        513|   -35993.80000|       2775|00:00:12|-0.00|0.20|1.0096|
+|-|          6|        504|          5|   -37585.00000|       3295|00:00:59|+0.01|0.17|1.0015|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:           5    mean value:    -37585.00000
+Description of the best configuration:
+  .ID. objective tenure random .PARENT.
+5    5       min     10   True       NA
+
+# 2017-12-06 18:14:33 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+    objective tenure random
+5         min     10   True
+338       min     10  False
+513       min     28  False
+# 2017-12-06 18:14:33 -02: Iteration 2 of 3
+# experimentsUsedSoFar: 3295
+# remainingBudget: 6705
+# currentBudget: 3352
+# nbConfigurations: 481
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          7|        481|          5|   -2098.000000|        481|00:00:03|   NA|  NA|    NA|
+|x|          3|        481|          5|   -59342.00000|        959|00:03:40|+0.01|0.50|0.9729|
+|x|          1|        481|          5|   -42200.66667|       1437|00:00:10|+0.02|0.34|0.9870|
+|x|          5|        481|        513|   -33624.75000|       1915|00:00:10|+0.02|0.26|0.9807|
+|-|          6|        467|          5|   -35986.20000|       2393|00:00:55|+0.01|0.21|0.9880|
+|-|          4|        450|          5|   -37585.00000|       2857|00:00:54|+0.01|0.18|0.9858|
+|-|          2|        434|          5|   -32515.42857|       3304|00:00:03|+0.01|0.16|0.9868|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:           5    mean value:    -32515.42857
+Description of the best configuration:
+  .ID. objective tenure random .PARENT.
+5    5       min     10   True       NA
+
+# 2017-12-06 18:20:32 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+    objective tenure random
+5         min     10   True
+338       min     10  False
+513       min     28  False
+# 2017-12-06 18:20:32 -02: Iteration 3 of 3
+# experimentsUsedSoFar: 6599
+# remainingBudget: 3401
+# currentBudget: 3401
+# nbConfigurations: 427
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          8|        427|       1034|   -116586.0000|        427|00:03:17|   NA|  NA|    NA|
+|x|          4|        427|       1235|   -81096.50000|        851|00:00:49|-0.05|0.47|1.0642|
+|x|          1|        427|       1235|   -56721.00000|       1275|00:00:09|+0.04|0.36|0.9892|
+|x|          5|        427|       1235|   -44515.25000|       1699|00:00:09|+0.01|0.26|1.0038|
+|-|          7|        399|       1235|   -36031.80000|       2123|00:00:03|+0.01|0.21|1.0087|
+|-|          2|        395|       1235|   -30340.66667|       2519|00:00:03|+0.01|0.18|0.9981|
+|-|          3|        353|        338|   -42522.28571|       2911|00:03:06|+0.02|0.16|0.9919|
+|-|          6|        318|        338|   -42904.37500|       3261|00:00:41|+0.01|0.14|0.9954|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:         338    mean value:    -42904.37500
+Description of the best configuration:
+    .ID. objective tenure random .PARENT.
+338  338       min     10  False       NA
+
+# 2017-12-06 18:28:52 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+     objective tenure random
+338        min     10  False
+1180       min     19  False
+5          min     10   True
+# 2017-12-06 18:28:52 -02: Iteration 4 of 4
+# experimentsUsedSoFar: 9860
+# remainingBudget: 140
+# currentBudget: 140
+# nbConfigurations: 18
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          9|         18|       1472|   -115613.0000|         18|00:00:12|   NA|  NA|    NA|
+|x|          5|         18|       1472|   -61770.50000|         33|00:00:00|-0.19|0.41|1.1579|
+|x|          8|         18|       1180|   -79828.33333|         48|00:00:12|-0.05|0.30|0.9536|
+|x|          2|         18|       1180|   -60395.75000|         63|00:00:00|-0.07|0.20|0.9859|
+|=|          4|         18|       1180|   -57433.20000|         78|00:00:03|-0.02|0.18|0.9568|
+|-|          6|         17|       1180|   -55457.50000|         93|00:00:03|-0.02|0.15|0.9588|
+|=|          1|         17|       1180|   -48639.85714|        107|00:00:00|-0.06|0.09|0.9859|
+|=|          3|         17|       1180|   -57016.50000|        121|00:00:12|-0.02|0.10|0.9570|
+|-|          7|         16|       1180|   -50914.44444|        135|00:00:00|+0.01|0.12|0.9234|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:        1180    mean value:    -50914.44444
+Description of the best configuration:
+     .ID. objective tenure random .PARENT.
+1180 1180       min     19  False        5
+
+# 2017-12-06 18:29:38 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+     objective tenure random
+1180       min     19  False
+5          min     10   True
+338        min     10  False
+# 2017-12-06 18:29:38 -02: Stopped because there is not enough budget left to race more than the minimum (3)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 5
+# nbIterations: 5
+# experimentsUsedSoFar: 9995
+# timeUsed: 0
+# remainingBudget: 5
+# currentBudget: 5
+# number of elites: 3
+# nbConfigurations: 3
+     .ID. objective tenure random .PARENT. .ALIVE.    .RANK.  .WEIGHT.
+1180 1180       min     19  False        5    TRUE -50914.44 0.5000000
+5       5       min     10   True       NA    TRUE -50890.33 0.3333333
+338   338       min     10  False       NA    TRUE -50881.22 0.1666667
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+# 2017-12-08 13:56:19 -02: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 3
+# nbParameters: 2
+# seed: 1333433616
+# confidence level: 0.95
+# budget: 10000
+# mu: 5
+# deterministic: FALSE
+
+# 2017-12-08 13:56:19 -02: Iteration 1 of 3
+# experimentsUsedSoFar: 0
+# remainingBudget: 10000
+# currentBudget: 3333
+# nbConfigurations: 555
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          1|        555|        469|   -116586.0000|        555|00:04:15|   NA|  NA|    NA|
+|x|          2|        555|        469|   -62204.00000|       1110|00:00:12|-0.01|0.49|1.0211|
+|x|          3|        555|        549|   -42140.00000|       1665|00:00:04|-0.01|0.32|1.0095|
+|x|          4|        555|        549|   -42999.75000|       2220|00:01:04|+0.04|0.28|0.9548|
+|-|          5|        540|        549|   -34819.40000|       2775|00:00:04|+0.04|0.23|0.9647|
+|-|          6|        528|        549|   -30333.50000|       3315|00:00:12|+0.02|0.19|0.9779|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:         549    mean value:    -30333.50000
+Description of the best configuration:
+    .ID. objective tenure random .PARENT.
+549  549       min     10   True       NA
+
+# 2017-12-08 14:02:12 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+    objective tenure random
+549       min     10   True
+469       min     28   True
+26        min     31  False
+# 2017-12-08 14:02:12 -02: Iteration 2 of 3
+# experimentsUsedSoFar: 3315
+# remainingBudget: 6685
+# currentBudget: 3342
+# nbConfigurations: 480
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          7|        480|        571|   -116586.0000|        480|00:03:42|   NA|  NA|    NA|
+|x|          2|        480|        659|   -62242.00000|        957|00:00:10|+0.10|0.55|0.8971|
+|x|          5|        480|        659|   -42194.00000|       1434|00:00:03|+0.06|0.37|0.9504|
+|x|          3|        480|        659|   -32131.50000|       1911|00:00:03|+0.04|0.28|0.9593|
+|-|          1|        478|        616|   -48905.20000|       2388|00:03:40|+0.04|0.23|0.9660|
+|-|          4|        468|        616|   -48355.50000|       2863|00:00:54|+0.03|0.19|0.9707|
+|-|          6|        455|        616|   -42565.00000|       3328|00:00:10|+0.04|0.17|0.9638|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:         616    mean value:    -42565.00000
+Description of the best configuration:
+    .ID. objective tenure random .PARENT.
+616  616       min     34   True      469
+
+# 2017-12-08 14:10:58 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+    objective tenure random
+616       min     34   True
+26        min     31  False
+469       min     28   True
+# 2017-12-08 14:10:58 -02: Iteration 3 of 3
+# experimentsUsedSoFar: 6643
+# remainingBudget: 3357
+# currentBudget: 3357
+# nbConfigurations: 422
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          8|        422|       1036|   -45607.00000|        422|00:00:48|   NA|  NA|    NA|
+|x|          4|        422|       1157|   -45607.00000|        841|00:00:48|-0.03|0.48|1.0335|
+|x|          5|        422|       1254|   -31104.00000|       1260|00:00:03|+0.02|0.34|1.0035|
+|x|          2|        422|       1296|   -25302.50000|       1679|00:00:09|+0.01|0.25|0.9946|
+|-|          3|        354|       1141|   -20639.00000|       2098|00:00:03|-0.05|0.16|1.0169|
+|-|          1|        344|       1051|   -36592.16667|       2449|00:02:42|-0.02|0.15|1.0055|
+|-|          6|        331|       1051|   -32493.85714|       2790|00:00:07|-0.01|0.13|1.0016|
+|-|          7|        326|        616|   -42911.75000|       3118|00:02:29|+0.00|0.13|0.9917|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:         616    mean value:    -42911.75000
+Description of the best configuration:
+    .ID. objective tenure random .PARENT.
+616  616       min     34   True      469
+
+# 2017-12-08 14:18:11 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+    objective tenure random
+616       min     34   True
+469       min     28   True
+26        min     31  False
+# 2017-12-08 14:18:11 -02: Iteration 4 of 4
+# experimentsUsedSoFar: 9761
+# remainingBudget: 239
+# currentBudget: 239
+# nbConfigurations: 29
+  Markers:
+     x No test is performed.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+                                                                   
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          9|         29|        616|   -116394.0000|         29|00:00:16|   NA|  NA|    NA|
+|x|          5|         29|        616|   -59214.00000|         55|00:00:00|-0.17|0.41|1.1737|
+|x|          8|         29|        616|   -54589.00000|         81|00:00:04|-0.05|0.30|1.0854|
+|x|          6|         29|        616|   -42897.25000|        107|00:00:00|+0.08|0.31|0.9393|
+|-|          2|         28|        616|   -35887.40000|        133|00:00:00|+0.01|0.21|0.9632|
+|=|          3|         28|        616|   -30211.83333|        158|00:00:00|-0.06|0.12|1.0032|
+|=|          4|         28|        616|   -32411.14286|        183|00:00:03|-0.01|0.13|0.9599|
+|-|          7|         26|        616|   -42933.00000|        208|00:00:15|+0.00|0.13|0.9398|
+|-|          1|         23|        616|   -51076.44444|        231|00:00:11|+0.02|0.13|0.9239|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best configuration:         616    mean value:    -51076.44444
+Description of the best configuration:
+    .ID. objective tenure random .PARENT.
+616  616       min     34   True      469
+
+# 2017-12-08 14:19:06 -02: Elite configurations (first number is the configuration ID; listed from best to worst according to the mean value):
+    objective tenure random
+616       min     34   True
+26        min     31  False
+469       min     28   True
+# 2017-12-08 14:19:06 -02: Stopped because there is not enough budget left to race more than the minimum (3)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 5
+# nbIterations: 5
+# experimentsUsedSoFar: 9992
+# timeUsed: 0
+# remainingBudget: 8
+# currentBudget: 8
+# number of elites: 3
+# nbConfigurations: 3
+    .ID. objective tenure random .PARENT. .ALIVE.    .RANK.  .WEIGHT.
+616  616       min     34   True      469    TRUE -51076.44 0.5000000
+26    26       min     31  False       NA    TRUE -50887.22 0.3333333
+469  469       min     28   True       NA    TRUE -50873.56 0.1666667
